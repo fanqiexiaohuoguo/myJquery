@@ -34,4 +34,4 @@ window.myQuery=function(nodeOrSelector){
         }
     }
 }
- 
+// item1.addClass.call(item1,{'yellow':true})

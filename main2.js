@@ -42,3 +42,4 @@ window.myQuery=function(nodeOrSelector){
 
     return nodes
 }
+items.addClass.call(items,{'red':true,'blue':false})
