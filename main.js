@@ -21,8 +21,8 @@ Node.prototype.addClass=function(classes){
         this.classList[methodName](key)
     }
 }
-// 方式2
-window.Node2=function(node){
+// 方式2-实际上就是jquery的原理
+window.myQuery=function(node){
     return{
         getSiblings:function(){
             var allChildren=node.parentNode.children
