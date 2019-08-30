@@ -15,7 +15,6 @@ window.myQuery=function(nodeOrSelector){
         }//伪数组
     } 
     nodes.addClass=function(classes){
-        var classes={'a':true,'b':false,'c':true}
         for(let key in classes){
             var value=classes[key]
             var methodName=value?'add':'remove'

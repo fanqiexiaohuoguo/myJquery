@@ -25,7 +25,6 @@ window.myQuery=function(nodeOrSelector){
             return array
         },
         addClass:function(classes){
-            var classes={'a':true,'b':false,'c':true}
             for(let key in classes){
                 var value=classes[key]
                 var methodName=value?'add':'remove'
